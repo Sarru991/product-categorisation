@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+# Secrets: never commit
+.env
+.env.*
+*token*
+*secret*
+credentials*.json
+client_secret*.json
+*.pem
+*.key
+
+# Claude Code local files
+.claude/settings.local.json
+.claude/*.lock
+.claude/projects/
+
+# Source data (Flipkart, Kaggle) is not redistributed; outputs are generated
+data.csv
+report.json
+test_predictions.csv
+*.db
